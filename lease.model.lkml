@@ -19,7 +19,7 @@ include: "views/*"                       # include all views in this project
 #   }
 # }
 
-# sample access grant - not working error "Cannot use user-editable attribute "pmc" for access_grant "pmc_user""
+# sample access grant - not working; see below
 access_grant: pmc_user {
   user_attribute: pmc
   allowed_values: [ "@{pmc}" ]
@@ -27,7 +27,7 @@ access_grant: pmc_user {
 
 
 explore: apt_unit {
-  required_access_grants: [pmc_user]
+  #required_access_grants: [pmc_user] - not working... the model is not visible even with attribute set in user
   label: "PMC: @{pmc}"
   join: lease {
     relationship: one_to_one
