@@ -27,6 +27,7 @@ access_grant: pmc_user {
 
 
 explore: apt_unit {
+  required_access_grants: [pmc_user]
   label: "PMC: @{pmc}"
   join: lease {
     relationship: one_to_one
