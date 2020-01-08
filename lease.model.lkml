@@ -19,8 +19,14 @@ include: "views/*"                       # include all views in this project
 #   }
 # }
 
-explore: apt_unit {
+# sample access grant - not working error "Cannot use user-editable attribute "pmc" for access_grant "pmc_user""
+#access_grant: pmc_user {
+#  user_attribute: pmc
+#  allowed_values: [ "@{pmc}" ]
+#}
 
+
+explore: apt_unit {
   label: "PMC: @{pmc}"
   join: lease {
     relationship: one_to_one
