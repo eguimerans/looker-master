@@ -21,6 +21,7 @@ include: "views/*"                       # include all views in this project
 
 explore: apt_unit {
 
+  label: "PMC: @{pmc}"
   join: lease {
     relationship: one_to_one
     sql_on: ${lease.unit} = ${apt_unit.id} ;;
