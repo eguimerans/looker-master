@@ -1,5 +1,6 @@
 view: customer {
-  sql_table_name: @{pmc}.customer ;;
+  #sql_table_name: @{pmc}.customer ;;
+  sql_table_name: redridge.customer ;;
   drill_fields: [customer_id]
 
   dimension: customer_id {
