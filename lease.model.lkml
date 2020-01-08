@@ -22,7 +22,7 @@ include: "views/*"                       # include all views in this project
 # sample access grant - not working error "Cannot use user-editable attribute "pmc" for access_grant "pmc_user""
 access_grant: pmc_user {
   user_attribute: pmc
-  allowed_values: [ "@{pmc}" ]
+  allowed_values: [ "redridge" ]
 }
 
 
