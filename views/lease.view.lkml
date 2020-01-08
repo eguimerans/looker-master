@@ -1,6 +1,5 @@
 view: lease {
-  #sql_table_name: @{pmc}.lease ;;
-  sql_table_name: redridge.lease ;;
+  sql_table_name: @{pmc}.lease ;;
   drill_fields: [bluemoon_lease_id]
 
   dimension: bluemoon_lease_id {

@@ -1,6 +1,5 @@
 view: apt_unit {
-  #sql_table_name: @{pmc}.apt_unit ;;
-  sql_table_name: redridge.apt_unit ;;
+  sql_table_name: @{pmc}.apt_unit ;;
   drill_fields: [id]
 
   dimension: id {

@@ -1,6 +1,5 @@
 view: building {
-  #sql_table_name: @{pmc}.building ;;
-  sql_table_name: redridge.building ;;
+  sql_table_name: @{pmc}.building ;;
   drill_fields: [bluemoon_building_id]
 
   dimension: bluemoon_building_id {

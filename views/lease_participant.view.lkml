@@ -1,6 +1,5 @@
 view: lease_participant {
-  #sql_table_name: @{pmc}.lease_participant ;;
-  sql_table_name: redridge.lease_participant ;;
+  sql_table_name: @{pmc}.lease_participant ;;
   drill_fields: [id]
 
   dimension: id {
