@@ -9,5 +9,5 @@ project_name: "ernesto-master"
 
 constant: pmc {
   value: "pmc_name_to_be_overriden"
-  export: none
+  export: override_optional
 }
