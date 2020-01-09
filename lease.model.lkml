@@ -26,6 +26,7 @@ access_grant: pmc_user {
 }
 
 
+
 explore: apt_unit {
 
   required_access_grants: [pmc_user] #- not working... the model is not visible even with attribute set in user
