@@ -19,6 +19,6 @@ include: "multitenant.dashboard.lookml"   # include a LookML dashboard called my
 #   }
 # }
 
-explore: building {
+explore: building_user_attribute_schema {
 
 }
