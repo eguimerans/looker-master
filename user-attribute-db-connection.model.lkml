@@ -1,4 +1,5 @@
-connection: "ernesto-dev-sandbox"
+#connection: "ernesto-dev-sandbox"
+connection: "vista-dev-sandbox"
 
 include: "views_no_param/*"                       # include all views in this project
 # include: "my_dashboard.dashboard.lookml"   # include a LookML dashboard called my_dashboard
