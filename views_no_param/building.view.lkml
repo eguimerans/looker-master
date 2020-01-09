@@ -1,5 +1,5 @@
 view: building {
-  sql_table_name: building ;;
+  sql_table_name: {{_user_attributes['pmc']}}.building ;;
 
   drill_fields: [bluemoon_building_id]
 
